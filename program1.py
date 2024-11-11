@@ -1,6 +1,6 @@
 class Solution:
     
-    def countIslands(self, map: list[list[str]]) -> int:
+    def getTotalIsles(self, map: list[list[str]]) -> int:
         if not map or len(map) == 0:
             return 0
 
@@ -24,4 +24,5 @@ class Solution:
                     markVisited(i, j)
 
         return num_islands
+
 

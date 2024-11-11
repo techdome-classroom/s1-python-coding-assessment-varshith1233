@@ -1,5 +1,3 @@
-
-
 class Solution:
     
     def countIslands(self, map: list[list[str]]) -> int:
